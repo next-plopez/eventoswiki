@@ -406,7 +406,7 @@ const refreshPage = () => {
 - **Development**: `pnpm dev`
 - **Build**: `pnpm build`
 - **Preview**: `pnpm preview`
-- **Deployment**: VPS managed with Dokploy, with server-side rendering through the `@astrojs/node` adapter. Every push to `main` runs `.github/workflows/deploy.yml`, which builds the Docker image, pushes it to `ghcr.io/achamorro-dev/eventoswiki` and triggers the Dokploy deployment. There are no preview deploys
+- **Deployment**: VPS managed with Dokploy, with server-side rendering through the `@astrojs/node` adapter. Every push to `main` runs `.github/workflows/deploy.yml`, which builds the Docker image, pushes it to `ghcr.io/next-plopez/eventoswiki` and triggers the Dokploy deployment. There are no preview deploys
 - **Database**: Astro DB with remote connection
 
 Remember to follow these patterns consistently throughout the codebase to maintain code quality and architectural integrity.
